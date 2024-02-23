@@ -1,0 +1,52 @@
+aside {
+  position: fixed;
+  width: 200px;
+  padding: 15px;
+  border: 1px black solid;
+  border-radius: 8px;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+nav ul li {
+  list-style: none;
+  display: block;
+}
+nav ul li:not(:last-child) {
+  border-bottom: 1px #d6d6d6 solid;
+}
+nav ul li a {
+  display: block;
+  padding: 8px 5px;
+  text-decoration: none;
+  color: #2fa12f !important;
+}
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.wrapper {
+  padding-left: 260px;
+}
+section {
+  margin-bottom: 25px;
+  padding: 15px;
+  background: #2fa12f;
+  color: white;
+}
+#presentation {
+  height: 200px;
+}
+#auteur {
+  height: 300px;
+}
+#livre {
+  height: 900px;
+}
+#film {
+  height: 550px;
+}
+#liens{
+  height: 150px;
+}
